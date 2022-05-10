@@ -1,0 +1,106 @@
+@charset "UTF8";
+
+body{
+    background-color: rgba(155, 221, 238, 0.712)
+    
+}
+main{
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: -1px 1px 13px -1px rgba(0, 0, 0, 0.185);
+    max-width: 350px;
+    min-width: 250px;
+    height: 420px;
+    margin: auto;
+    
+    
+    
+}
+main  a{
+    text-decoration: none;
+    
+}
+
+main a:hover{
+    text-decoration: underline #166FE5;
+    
+}
+main > h1{
+    padding-top: 25px;
+}
+form {
+    height: 320px;
+    
+    
+}
+input{
+    width: 300px;
+    
+    height: 30px;
+    border: 1px solid rgba(201, 196, 196, 0.404);
+    border-radius: 6px;
+    
+      
+}
+input.email{
+    padding: 8px;
+    
+}
+input.senha{
+    padding: 8px;
+}
+input.enviar{
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    width: 320px;
+    height: 40px;
+    font-weight: bold;
+    border: 1px solid rgb(201, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 5px;
+    margin-bottom: 30px
+}
+
+input.enviar:hover{
+    background-color: blue;
+}        
+
+select{
+    margin-top: 8px;
+}
+::placeholder{
+    padding-left: 5px ;
+}
+div.div1{
+    color: #166FE5;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(201, 196, 196, 0.342);
+    margin-left: 20px;
+    margin-right: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+
+div.div2{
+    color: white;
+    background-color: #36A420;
+    font-size: 18px;
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 6px;
+    height: 34px;
+    padding-top: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div.div2:hover{
+    background-color: green;
+}
