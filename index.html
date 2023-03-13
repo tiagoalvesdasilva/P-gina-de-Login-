@@ -14,23 +14,23 @@
         <div class="rightside">
             <h1>Crie sua conta</h1>
 
-            <form method="post">
-                <label for="">
+            <form method="post" class="validator_1">
+                <label class="border" for="">
                     Seu nome: <br>
-                    <input type="text" name="name">
+                    <input type="text" name="name" data-rules="required">
                 </label>
 
-                <label for="">
+                <label class="border" for="">
                     Seu e-mail: <br>
-                    <input type="email" name="email">
+                    <input  type="email" name="email">
                 </label>
 
-                <label for="">
+                <label class="border" for="">
                     Sua senha: <br>
                     <input type="password" name="password">
                 </label>
 
-                <label for="">
+                <label class="cadastrar" for="">
                     <input type="submit" value="Cadastrar">
                 </label>
             </form>

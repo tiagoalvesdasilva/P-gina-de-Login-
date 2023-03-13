@@ -21,19 +21,37 @@
     
 }
 .rightside{
-    width: 400px;
-   background-color: aqua;
+    width: 500px;
+   background-image: linear-gradient(to bottom, #3fd7d3, #81f791);
    padding: 50px;
+}
+.rightside h1{
+    color: #080B11;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .rightside label{
     display: block;
     margin-bottom: 20px;
+    color: #187e04;
 }
 .rightside input{
     width: 100%;
-    border: 1px solid black;
-    border-radius: 6px;
+    background: transparent;
+    border: 0;
     font-size: 14px;
     padding: 8px;
     outline: 0;
+}
+.border{
+    border-bottom: 2px solid #09317c;
+}
+.cadastrar{
+    border: 2px solid red;
+    background-color: rgb(243, 64, 64);
+    width: 100px;
+    margin: auto;
+}
+.cadastrar input{
+    cursor: pointer;
 }
