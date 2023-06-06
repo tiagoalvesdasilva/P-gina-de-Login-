@@ -55,3 +55,7 @@
 .cadastrar input{
     cursor: pointer;
 }
+.error{
+    color: rgb(3, 31, 10);
+    padding: 4px;
+}
