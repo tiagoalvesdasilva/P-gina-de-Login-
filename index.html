@@ -17,12 +17,12 @@
             <form method="post" class="validator">
                 <label class="border"  for="">
                     Seu nome: <br>
-                    <input type="text" data-rules="required" name="name" >
+                    <input type="text" data-rules="required|min=8" name="name" >
                 </label>
 
                 <label class="border" for="">
                     Seu e-mail: <br>
-                    <input  data-rules="required" type="email" name="email">
+                    <input  data-rules="required|email" type="email" name="email">
                 </label>
 
                 <label class="border" for="">
@@ -35,7 +35,7 @@
                 </label>
             </form>
             <div>
-                Já tem uma conta? <a href="">Faça o login</a>
+                Já tem uma conta? <a href="#">Faça o login</a>
             </div>
         </div>
     </div>

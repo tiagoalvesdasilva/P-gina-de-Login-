@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: #030e18;
 }
 .screen{
     display: flex;
@@ -33,7 +34,7 @@
 .rightside label{
     display: block;
     margin-bottom: 20px;
-    color: #187e04;
+    color: #030e18;
 }
 .rightside input{
     width: 100%;
@@ -43,19 +44,35 @@
     padding: 8px;
     outline: 0;
 }
-.border{
-    border-bottom: 2px solid #09317c;
+.screen input{
+    border: none;
+    border-bottom: 2px solid #030e18;
 }
 .cadastrar{
-    border: 2px solid red;
-    background-color: rgb(243, 64, 64);
     width: 100px;
-    margin: auto;
+
+}
+div a{
+    text-decoration: none;
+}
+div a:hover{
+    color: #09b1ab;
 }
 .cadastrar input{
     cursor: pointer;
+    border: none;
+    width: 401px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    background-color: #030e18;
+    border-radius: 8px;
+}
+.cadastrar input:hover{
+    background-color: #030e18b2;
 }
 .error{
-    color: rgb(3, 31, 10);
+    color: #030e18;
     padding: 4px;
+    margin-top: 5px;
 }
